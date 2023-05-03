@@ -28,6 +28,21 @@ use App\Http\Controllers\LoginController;
 // });
 
 // open dashboard
+// Route::get('/', function () {
+//     return view('test');
+// });
+
+// open profile
+// Route::get('/', function () {
+//     return view('profile');
+// });
+
+// open data alumni
+// Route::get('/', function () {
+//     return view('dataalumni');
+// });
+
+// open bantuan
 Route::get('/', function () {
-    return view('test');
+    return view('bantuan');
 });
