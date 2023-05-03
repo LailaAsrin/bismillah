@@ -33,6 +33,11 @@ use App\Http\Controllers\LoginController;
 // });
 
 // open profile
+// Route::get('/', function () {
+//     return view('profile');
+// });
+
+// open data alumni
 Route::get('/', function () {
-    return view('profile');
+    return view('dataalumni');
 });
