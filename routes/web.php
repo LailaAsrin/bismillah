@@ -38,6 +38,11 @@ use App\Http\Controllers\LoginController;
 // });
 
 // open data alumni
+// Route::get('/', function () {
+//     return view('dataalumni');
+// });
+
+// open bantuan
 Route::get('/', function () {
-    return view('dataalumni');
+    return view('bantuan');
 });
