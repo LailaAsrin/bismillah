@@ -23,9 +23,9 @@ use App\Http\Controllers\LoginController;
  */
 
 // open login page
-// Route::get('/', function () {
-//     return view('auth.LoginPage');
-// });
+Route::get('/login', function () {
+    return view('auth.LoginPage');
+});
 
 // open dashboard
 // Route::get('/', function () {
