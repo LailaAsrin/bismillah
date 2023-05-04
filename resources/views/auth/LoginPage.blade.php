@@ -77,6 +77,14 @@
                                         </div>
                                     </form>
                                 </div>
+
+                                <div class="p-6 px-1 pt-0 text-center bg-transparent border-t-0 border-t-solid rounded-b-2xl lg:px-2">
+                                    <p class="mx-auto mb-6 leading-normal text-sm">
+                                      Belum Memiliki Akun?
+                                      <a href="/register" class="relative z-10 font-semibold text-transparent bg-gradient-to-tl from-blue-600 to-cyan-400 bg-clip-text" >Daftar Akun</a>
+                                    </p>
+                                  </div>
+
                             </div>
                         </div>
                         <div class="w-full max-w-full px-3 lg:flex-0 shrink-0 md:w-6/12">
@@ -94,6 +102,10 @@
             <div class="flex flex-wrap -mx-3">
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
             </div>
             <div class="flex flex-wrap -mx-3">
                 <div class="w-8/12 max-w-full px-3 mx-auto mt-1 text-center flex-0">

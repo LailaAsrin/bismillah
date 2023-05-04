@@ -27,6 +27,12 @@ Route::get('/login', function () {
     return view('auth.LoginPage');
 });
 
+
+// open Register page
+Route::get('/register', function () {
+    return view('auth.RegisterPage');
+});
+
 // open dashboard
 // Route::get('/', function () {
 //     return view('test');
