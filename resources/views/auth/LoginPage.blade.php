@@ -102,7 +102,10 @@
             <div class="flex flex-wrap -mx-3">
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
             </div>
             <div class="flex flex-wrap -mx-3">
                 <div class="w-8/12 max-w-full px-3 mx-auto mt-1 text-center flex-0">

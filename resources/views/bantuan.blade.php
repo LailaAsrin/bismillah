@@ -34,6 +34,7 @@
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Main Styling -->
     <link href="../assets/css/soft-ui-dashboard-tailwind.css?v=1.0.4" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 
 </head>
 
@@ -43,8 +44,9 @@
         <div class="h-19.5">
             <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden" sidenav-close></i>
             <a class="block px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700" href="javascript:;" target="_blank">
-                <img src="./assets/img/logo-ct.png" class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
+                <img src="image/logo-removebg-preview.png" class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
                 <span class="ml-1 font-semibold transition-all duration-200 ease-nav-brand">SIMBA</span>
+
             </a>
         </div>
 
@@ -318,23 +320,20 @@
             <div class="flex flex-wrap -mx-3">
                 <div class="flex-none w-full max-w-full px-3">
                     <div class="relative flex flex-col min-w-0 mb-6 break-words bg-white border-0 border-transparent border-solid shadow-soft-xl rounded-2xl bg-clip-border">
-                        
-                        <div class="md:pt-4">
-                            <div class="bg-white rounded-lg shadow-lg p-4">
+                        <div class="bg-white rounded-lg shadow-lg p-4">
 
-                                <div class="mb-4">
-                                    <label class="block text-gray-700 font-bold mb-2" for="helpText">Tuliskan keluhan Anda dan bantu kami
-                                        untuk terus berkembang!</label>
-                                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="helpText" rows="6" placeholder="Tuliskan pertanyaan atau keluhan Anda"></textarea>
-                                </div>
-                                <div class="flex">
-                                    <!-- <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full w-40">
-                                        Kirim
-                                    </button> -->
-                                    <button>Kirim</button>
-                                </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 font-bold mb-2" for="helpText">Tuliskan keluhan Anda dan bantu kami
+                                    untuk terus berkembang!</label>
+                                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="helpText" rows="6" placeholder="Tuliskan pertanyaan atau keluhan Anda"></textarea>
+                            </div>
+                            <div class="flex justify-end">
+                                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-40">
+                                    Kirim
+                                </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -343,15 +342,7 @@
                 <div class="w-full px-6 mx-auto">
                     <div class="flex flex-wrap items-center -mx-3 lg:justify-between">
                         <div class="w-full max-w-full px-3 mt-0 mb-6 shrink-0 lg:mb-0 lg:w-1/2 lg:flex-none">
-                            <div class="leading-normal text-center text-sm text-slate-500 lg:text-left">
-                                ©
-                                <script>
-                                    document.write(new Date().getFullYear() + ",");
-                                </script>
-                                made with <i class="fa fa-heart"></i> by
-                                <a href="https://www.creative-tim.com" class="font-semibold text-slate-700" target="_blank">Creative Tim</a>
-                                for a better web.
-                            </div>
+
                         </div>
                         <div class="w-full max-w-full px-3 mt-0 shrink-0 lg:w-1/2 lg:flex-none">
                             <ul class="flex flex-wrap justify-center pl-0 mb-0 list-none lg:justify-end">

@@ -44,11 +44,11 @@ Route::get('/register', function () {
 // });
 
 // open data alumni
-// Route::get('/', function () {
-//     return view('dataalumni');
-// });
+Route::get('/', function () {
+    return view('dataalumni');
+});
 
 // open bantuan
-Route::get('/', function () {
-    return view('bantuan');
-});
+// Route::get('/', function () {
+//     return view('bantuan');
+// });

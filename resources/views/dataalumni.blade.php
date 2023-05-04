@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
     <!-- Favicon icon -->
     <link rel="icon" href="https://simkuliah.unsyiah.ac.id/assets/unsyiah.png" type="image/x-icon">
-    <title>SIMBA - Profile</title>
+    <title>SIMBA</title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
     <!-- Font Awesome Icons -->
@@ -43,7 +43,7 @@
         <div class="h-19.5">
             <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden" sidenav-close></i>
             <a class="block px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700" href="javascript:;" target="_blank">
-                <img src="./assets/img/logo-ct.png" class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
+                <img src="./assets/img/logo-removebg-preview.png" class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
                 <span class="ml-1 font-semibold transition-all duration-200 ease-nav-brand">SIMBA</span>
             </a>
         </div>
@@ -194,7 +194,7 @@
                         </li>
                         <li class="text-sm pl-2 capitalize leading-normal text-slate-700 before:float-left before:pr-2 before:text-gray-600 before:content-['/']" aria-current="page">Tables</li>
                     </ol>
-                    <h6 class="mb-0 font-bold capitalize">Tables</h6>
+                    <h6 class="mb-0 font-bold capitalize">Data Alumni</h6>
                 </nav>
 
                 <div class="flex items-center mt-2 grow sm:mt-0 sm:mr-6 md:mr-0 lg:flex lg:basis-auto">
@@ -214,7 +214,7 @@
                         <li class="flex items-center">
                             <a href="../pages/sign-in.html" class="block px-0 py-2 font-semibold transition-all ease-nav-brand text-sm text-slate-500">
                                 <i class="fa fa-user sm:mr-1" aria-hidden="true"></i>
-                                <span class="hidden sm:inline">Sign In</span>
+                                <span class="hidden sm:inline">Masuk</span>
                             </a>
                         </li>
                         <li class="flex items-center pl-4 xl:hidden">
@@ -312,9 +312,8 @@
             </div>
         </nav>
 
+        <!-- table 1 -->
         <div class="w-full px-6 py-6 mx-auto">
-            <!-- table 1 -->
-
             <div class="flex flex-wrap -mx-3">
                 <div class="flex-none w-full max-w-full px-3">
                     <div class="relative flex flex-col min-w-0 mb-6 break-words bg-white border-0 border-transparent border-solid shadow-soft-xl rounded-2xl bg-clip-border">
@@ -327,7 +326,7 @@
                                     <thead class="align-bottom">
                                         <tr>
                                             <th class="px-6 py-3 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Nama</th>
-                                            <th class="px-6 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">NPM</th>
+                                            <th class="px-6 py-3 pl-8 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">NPM</th>
                                             <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Tahun Masuk</th>
                                             <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Tahun Lulus</th>
                                             <th class="px-6 py-3 font-semibold capitalize align-middle bg-transparent border-b border-gray-200 border-solid shadow-none tracking-none whitespace-nowrap text-slate-400 opacity-70"></th>
@@ -372,13 +371,13 @@
                                                 </div>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                            <p class="mb-0 font-semibold leading-tight text-xs">2078906544878</p>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2078906544878</p>
                                             </td>
                                             <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
-                                                <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2019</p>
                                             </td>
-                                            <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <span class="font-semibold leading-tight text-xs text-slate-400">11/01/19</span>
+                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2023</p>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
                                                 <a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Edit </a>
@@ -397,14 +396,13 @@
                                                 </div>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <p class="mb-0 font-semibold leading-tight text-xs">Executive</p>
-                                                <p class="mb-0 leading-tight text-xs text-slate-400">Projects</p>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">1978906544854</p>
                                             </td>
                                             <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
-                                                <span class="bg-gradient-to-tl from-green-600 to-lime-400 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2018</p>
                                             </td>
-                                            <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <span class="font-semibold leading-tight text-xs text-slate-400">19/09/17</span>
+                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2022</p>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
                                                 <a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Edit </a>
@@ -423,14 +421,13 @@
                                                 </div>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <p class="mb-0 font-semibold leading-tight text-xs">Programator</p>
-                                                <p class="mb-0 leading-tight text-xs text-slate-400">Developer</p>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">1978906544812</p>
                                             </td>
                                             <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
-                                                <span class="bg-gradient-to-tl from-green-600 to-lime-400 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Online</span>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2017</p>
                                             </td>
-                                            <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <span class="font-semibold leading-tight text-xs text-slate-400">24/12/08</span>
+                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2021</p>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
                                                 <a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Edit </a>
@@ -449,14 +446,13 @@
                                                 </div>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <p class="mb-0 font-semibold leading-tight text-xs">Manager</p>
-                                                <p class="mb-0 leading-tight text-xs text-slate-400">Executive</p>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">1878906544854</p>
                                             </td>
                                             <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
-                                                <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2016</p>
                                             </td>
-                                            <td class="p-2 text-center align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
-                                                <span class="font-semibold leading-tight text-xs text-slate-400">04/10/21</span>
+                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2019</p>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
                                                 <a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Edit </a>
@@ -474,15 +470,14 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="p-2 align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                                <p class="mb-0 font-semibold leading-tight text-xs">Programtor</p>
-                                                <p class="mb-0 leading-tight text-xs text-slate-400">Developer</p>
+                                            <td class="p-2 align-middle bg-transparent border-b whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2078906544844</p>
                                             </td>
-                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b-0 text-sm whitespace-nowrap shadow-transparent">
-                                                <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-3.6 text-xs rounded-1.8 py-2.2 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">Offline</span>
+                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2019</p>
                                             </td>
-                                            <td class="p-2 text-center align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                                <span class="font-semibold leading-tight text-xs text-slate-400">14/09/20</span>
+                                            <td class="p-2 leading-normal text-center align-middle bg-transparent border-b text-sm whitespace-nowrap shadow-transparent">
+                                                <p class="mb-0 font-semibold leading-tight text-xs">2023</p>
                                             </td>
                                             <td class="p-2 align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
                                                 <a href="javascript:;" class="font-semibold leading-tight text-xs text-slate-400"> Edit </a>
@@ -505,9 +500,7 @@
                                 <script>
                                     document.write(new Date().getFullYear() + ",");
                                 </script>
-                                made with <i class="fa fa-heart"></i> by
-                                <a href="https://www.creative-tim.com" class="font-semibold text-slate-700" target="_blank">Creative Tim</a>
-                                for a better web.
+                                Copyright © CardDev 2023  
                             </div>
                         </div>
                         <div class="w-full max-w-full px-3 mt-0 shrink-0 lg:w-1/2 lg:flex-none">
